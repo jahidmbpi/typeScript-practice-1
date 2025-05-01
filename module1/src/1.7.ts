@@ -1,8 +1,4 @@
-// spreate oparator
-//distrauctureing
-{
-  //
-
+(() => {
   const bross1: string[] = ["mir", "firoz", "mizan"];
   const bross2: string[] = ["tonmoy", "nahid", "rahat"];
 
@@ -32,7 +28,7 @@
   const user = {
     id: 150,
     name: {
-      fristName: "mezbah",
+      firstName: "mezbah",
       middleName: "abedin",
       lastName: "persian",
     },
@@ -45,10 +41,8 @@
     name: { middleName: midName },
   } = user;
 
-  //   array destraucturing
+  console.log(midName);
+
   const myFriend = ["chander", "jony", "roos", "rache"];
-
   const [, , bestFriend, ...rest] = myFriend;
-
-  //
-}
+})();
