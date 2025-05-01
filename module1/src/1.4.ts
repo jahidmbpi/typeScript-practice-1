@@ -10,6 +10,13 @@ let X: undefined = undefined;
 let Y: null = null;
 
 let d: string;
-d = 123;
+
 d = "jahid";
-d = true;
+// array
+let friends: string[] = ["jahid", "samiul", "sabbir"];
+friends.push("samiul");
+let eligibleRoolList: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let cordinates: [number, number] = [1, 2];
+
+let ageNmae: [number, string, boolean] = [50, "mr.X", true];
+ageNmae[0] = 50;
