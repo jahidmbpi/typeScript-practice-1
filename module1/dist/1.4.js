@@ -15,3 +15,6 @@ d = "jahid";
 let friends = ["jahid", "samiul", "sabbir"];
 friends.push("samiul");
 let eligibleRoolList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let cordinates = [1, 2];
+let ageNmae = [50, "mr.X", true];
+ageNmae[0] = 50;
