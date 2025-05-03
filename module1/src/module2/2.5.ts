@@ -28,5 +28,31 @@
   };
 
   const regeneric = createArrayWithGeneric2<string, number>("bangladesh", 1212);
+
+  const addCourseToStudent = <T>(Student: T) => {
+    const course = "next lavel web dev";
+    return {
+      ...Student,
+      course,
+    };
+  };
+
+  const student1 = addCourseToStudent({
+    name: "Mr.X",
+    email: "X@gmail.com",
+    devType: "next lavel developer",
+  });
+  const student2 = addCourseToStudent<{
+    name: string;
+    email: string;
+    hassWatch: string;
+  }>({
+    name: "Mr.Y",
+    email: "Y@gmail.com",
+    hassWatch: "apple watch",
+  });
+
+  console.log(student1);
+
   //
 }
