@@ -1,6 +1,6 @@
 {
   //generic type
-  type GenericArray<t> = Array<t>;
+  type GenericArray<T> = Array<T>;
   // const roolNumber: number[] = [1, 2, 3, 4];
   const roolNumber: GenericArray<number> = [1, 2, 3, 4];
   //   const mentors: string[] = ["mr.x", "mr.y", "mr.z"];
